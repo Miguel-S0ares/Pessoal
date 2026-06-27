@@ -34,14 +34,16 @@ body{
     
         
     }
-    footer{
+    .icons{
     display: flex;
     justify-content: center;
-
 
     }
     footer a{
         margin: 20px;
+        text-align: center;
+    }
+    footer p{
         text-align: center;
     }
     .container{
@@ -49,12 +51,31 @@ body{
     }
 nav a{
     position: relative;
-    transition: 0.3s;
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+}
+nav a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 0;
+    height: 2px;
+    background-color: green;
+
+    transition: width 0.3s ease;
+}
+nav a:hover::after{
+    width: 100%;
+    
+}
+nav a:hover{
+    color: green;
 }
 
-nav a:hover{
-    color: lime;
-}
     .card{
         
         background-color: #1E1E1E;
