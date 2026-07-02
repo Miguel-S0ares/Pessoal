@@ -1,145 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>FinTrack</title>
 </head>
+
 <body>
-     <header class="navbar">
-        <div class="logo">
-        <img src="./img/ChatGPT Image 28 de jun. de 2026, 21_11_30.png" alt="">
-        </div>
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                    <a href="index.html">Recursos</a>
-                    <a href="index.html">Blog</a>
-                    <a href="index.html">Login</a>
-                </li>
-            </ul>
-        </nav>
-          <div class="dummy-space"></div>
-     </header>
-<section class="hero">
 
-    <div class="texto">
-        <p class="mini">Seu dinheiro, seu futuro</p>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="./img/ChatGPT Image 28 de jun. de 2026, 21_11_30.png" alt="Logo FinTrack">
+            </div>
 
-      <div class="texto">
-    <h3>Organize suas finanças</h3>
-    <h3 class="green">responsabilidade</h3>
-</div>
-
-        <p class="explicacao">
-            Acompanhe seus gastos, defina metas e alcance seus objetivos
-            financeiros com mais controle e tranquilidade.
-        </p>
-
-        <div class="button">
-            <button class="meu-botao">Começar Agora</button>
-
-            <nav class="saber">
-                <a href="">Saber mais →</a>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <a href="#">Recursos</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Login</a>
+                    </li>
+                </ul>
             </nav>
+
+            <div class="dummy-space"></div>
         </div>
-    </div>
+    </header>
 
-   <div class="painel">
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="texto">
+                <p class="mini">Seu dinheiro, seu futuro</p>
 
-    <div class="topo">
-        <h2>Visão Geral</h2>
+               <h3>
+    Organize suas finanças
+    <span>responsabilidade</span>
+</h3>
 
-        <select>
-            <option>Junho</option>
-            <option>Maio</option>
-        </select>
-    </div>
-    <div class="cards">
+                <p class="explicacao">
+                    Acompanhe seus gastos, defina metas e alcance seus objetivos
+                    financeiros com mais controle e tranquilidade.
+                </p>
 
-    <div class="card">
-        <h4>Saldo</h4>
-        <h2>R$ 8.450</h2>
-    </div>
+                <div class="button">
+                    <button class="meu-botao">
+                        Começar Agora
+                    </button>
 
-    <div class="card">
-        <h4>Receitas</h4>
-        <h2 class="cash">R$ 12.300</h2>
-    </div>
+                    <nav class="saber">
+                        <a href="">Saber mais →</a>
+                    </nav>
+                </div>
+            </div>
 
-    <div class="card">
-        <h4>Despesas</h4>
-        <h2 class="deficet">R$ 3.850</h2>
-    </div>
+            <div class="painel">
+                <div class="topo">
+                    <h2>Visão Geral</h2>
 
-</div>
-<div class="graficos">
+                    <select>
+                        <option>Junho</option>
+                        <option>Maio</option>
+                    </select>
+                </div>
 
- <div class="grafico">
-    <canvas id="graficoSaldo"></canvas>
-</div>
+                <div class="cards">
+                    <div class="card">
+                        <h4>Saldo</h4>
+                        <h2>R$ 8.450</h2>
+                    </div>
 
-    <div class="categorias">
+                    <div class="card">
+                        <h4>Receitas</h4>
+                        <h2 class="cash">R$ 12.300</h2>
+                    </div>
 
-        <h3>Categorias</h3>
+                    <div class="card">
+                        <h4>Despesas</h4>
+                        <h2 class="deficet">R$ 3.850</h2>
+                    </div>
+                </div>
 
-        <p>🍔 Alimentação</p>
+                <div class="graficos">
+                    <div class="grafico">
+                        <canvas id="graficoSaldo"></canvas>
+                    </div>
 
-        <p>🚗 Transporte</p>
-
-        <p>🏠 Moradia</p>
-
-    </div>
-
-</div>
-</div>
-
-</section>
-
-<h3 class="title">Tudo que você precisa em um só lugar</h3>
-<div class="info">
-
-<div class="card-info">
-    <div class="icone">
-        <img src="./img/credit-card-solid-full.svg" alt="">
-    </div>
-
-    <h3>Controle de gastos</h3>
-
-    <p>
-        Veja para onde seu dinheiro está indo e identifique oportunidades de economia.
-    </p>
-</div>
-
-    <div class="card-info">
-         <div class="icone">
-        <img src="./img/bullseye-solid-full.svg" alt="">
+                    <div class="categorias">
+                        <h3>Categorias</h3>
+                        <p>🍔 Alimentação</p>
+                        <p>🚗 Transporte</p>
+                        <p>🏠 Moradia</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h3>Metas financeiras</h3>
-        <p>Defina objetivos e acompanhe seu progresso de forma simples e motivadora.</p>
-    </div>
+    </section>
 
-    <div class="card-info">
-        <div class="icone">
-        <img src="./img/chart-line-solid-full.svg" alt="">
+    <section class="beneficios">
+        <div class="container">
+            <h3 class="title">
+                Tudo que você precisa em um só lugar
+            </h3>
+
+            <div class="info">
+                <div class="card-info">
+                    <div class="icone">
+                        <img src="./img/credit-card-solid-full.svg" alt="">
+                    </div>
+                    <h3>Controle de gastos</h3>
+                    <p>
+                        Veja para onde seu dinheiro está indo e identifique oportunidades de economia.
+                    </p>
+                </div>
+
+                <div class="card-info">
+                    <div class="icone">
+                        <img src="./img/bullseye-solid-full.svg" alt="">
+                    </div>
+                    <h3>Metas financeiras</h3>
+                    <p>
+                        Defina objetivos e acompanhe seu progresso de forma simples e motivadora.
+                    </p>
+                </div>
+
+                <div class="card-info">
+                    <div class="icone">
+                        <img src="./img/chart-line-solid-full.svg" alt="">
+                    </div>
+                    <h3>Relatórios claros</h3>
+                    <p>
+                        Gráficos e relatórios que ajudam você a tomar decisões melhores.
+                    </p>
+                </div>
+
+                <div class="card-info">
+                    <div class="icone">
+                        <img src="./img/lock-solid-full.svg" alt="">
+                    </div>
+                    <h3>Dados seguros</h3>
+                    <p>
+                        Suas informações protegidas com segurança e privacidade.
+                    </p>
+                </div>
+            </div>
         </div>
-        <h3>Relatórios claros</h3>
-        <p>Gráficos e Relatórios que ajudam você a tomar decisões melhores.</p>
-    </div>
+    </section>
 
-    <div class="card-info">
-        <div class="icone">
-        <img src="./img/lock-solid-full.svg" alt="">
+    <section class="cta">
+        <div class="container">
+            <h1>
+                Comece hoje a cuidar do seu futuro
+            </h1>
+
+            <p> 
+                Junte-se a milhares de pessoas que estão transformando sua vida financeira.
+            </p>
+
+            <div class="escolhas">
+                <button class="botao-cadastro">
+                    Criar conta grátis
+                </button>
+
+                <p>Já tem conta?</p>
+
+                <a href="#" class="link-login">
+                    Entrar
+                </a>
+            </div>
         </div>
-        <h3>Dados seguros</h3>
-        <p>Suas informções protegidas com segurança e privacidade.</p>
-    </div>
+    </section>
 
-</div>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 FinTrack. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
